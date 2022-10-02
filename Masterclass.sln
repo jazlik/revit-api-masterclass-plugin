@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Masterclass.Revit.SharedProject", "Masterclass.Revit.SharedProject\Masterclass.Revit.SharedProject.shproj", "{B7CEECB3-1211-4A23-A758-081894898C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterclass.Revit.2022", "Masterclass.Revit.2022\Masterclass.Revit.2022.csproj", "{E27C9D19-FE8B-4B5B-AA54-FD6D3FAB19CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterclass.Revit.2021", "Masterclass.Revit.2021\Masterclass.Revit.2021.csproj", "{51BAA176-6C22-480A-8741-B42B4868FD3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E27C9D19-FE8B-4B5B-AA54-FD6D3FAB19CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27C9D19-FE8B-4B5B-AA54-FD6D3FAB19CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27C9D19-FE8B-4B5B-AA54-FD6D3FAB19CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27C9D19-FE8B-4B5B-AA54-FD6D3FAB19CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BAA176-6C22-480A-8741-B42B4868FD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BAA176-6C22-480A-8741-B42B4868FD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BAA176-6C22-480A-8741-B42B4868FD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BAA176-6C22-480A-8741-B42B4868FD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F98F513-96C3-418C-B670-76648426AA52}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Masterclass.Revit.SharedProject\Masterclass.Revit.SharedProject.projitems*{51baa176-6c22-480a-8741-b42b4868fd3d}*SharedItemsImports = 4
+		Masterclass.Revit.SharedProject\Masterclass.Revit.SharedProject.projitems*{b7ceecb3-1211-4a23-a758-081894898c44}*SharedItemsImports = 13
+		Masterclass.Revit.SharedProject\Masterclass.Revit.SharedProject.projitems*{e27c9d19-fe8b-4b5b-aa54-fd6d3fab19cc}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
